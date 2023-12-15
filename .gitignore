@@ -1,0 +1,4 @@
+data/
+cromwell-workflow-logs
+cromwell-executions
+*.swp
