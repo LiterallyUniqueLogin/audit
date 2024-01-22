@@ -2,3 +2,6 @@ data/
 cromwell-workflow-logs
 cromwell-executions
 *.swp
+*log
+temp
+sandra_email

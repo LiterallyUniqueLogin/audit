@@ -143,20 +143,24 @@ df.rename(
 
 for idx, field in enumerate(fields):
     np.save(
-        f'{args.outdir}/audit_q{idx+1}.tab',
+        f'{args.outdir}/audit_q{idx+1}',
         df.select(
             'eid',
             field,
             'rough_age_in_days'
+        ).filter(
+            ~pl.col(field).is_null()
         ).to_numpy()
     )
 
 for field in audit_sum_fields + audit_log_fields:
     np.save(
-        f'{args.outdir}/{field}.tab',
+        f'{args.outdir}/{field}',
         df.select(
             'eid',
             field,
             'rough_age_in_days'
+        ).filter(
+            ~pl.col(field).is_null()
         ).to_numpy()
     )

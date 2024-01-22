@@ -1,0 +1,26 @@
+Hi all!
+
+ 
+
+I am happy to attach the AUDIT scores for UKB participants (in the order of the manifesto – but please check that the age and sex match with the IDs)!
+
+ 
+
+In audit_scores.csv you can find:
+
+Age at recruitment and sex (so that you can confirm that the order of the participants is correct)
+13 alcohol traits derived from the Alcohol Use Disorder Identification Test (AUDIT)
+The first 10 are individual item responses for items 1 to 10.
+The remaining 3 are composite scores for AUDIT-C (“alcohol consumption”, sum of items 1-3), AUDIT-P (“problematic alcohol use”, sum of items 4-10), and AUDIT total score (sum of items 1-10). The composite scores are log10 transformed, as we have done in our previous papers (https://pubmed.ncbi.nlm.nih.gov/33985350/ https://pubmed.ncbi.nlm.nih.gov/30336701/ ), to approximate a normal distribution.
+How we created these phenotypes is described in AUDIT-Calculation-UKB.ipynb
+ 
+
+Please let me know if I can help any further – I look forward to working with you on this project! So exciting!
+
+ 
+
+Best wishes,
+
+ 
+
+Sandra
