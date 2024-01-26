@@ -49,19 +49,19 @@ workflow gwass {
 #      'q1',
 #      'q2',
 #      'q3',
-      'q4',
+#      'q4',
 #      'q5',
 #      'q6',
 #      'q7',
 #      'q8',
 #      'q9',
 #      'q10'
-#      'c',
-#      'p',
-#      't'
-#      'c_log10',
-#      'p_log10',
-#      't_log10'
+      'c',
+      'p',
+      't',
+      'c_log10',
+      'p_log10',
+      't_log10'
     ]
 
   scatter (target_npy_name in target_npy_names) {
