@@ -1,0 +1,1 @@
+mamba env export --from-history > file.yml
