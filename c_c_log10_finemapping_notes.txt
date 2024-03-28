@@ -1,0 +1,6 @@
+Shared:
+SNP_100239319_T_C : main hit
+SNP_2_27730940_T_C : next highest hit
+SNP_103188709_C_T : third highest
+nothing else substantially below p 5e-8
+
